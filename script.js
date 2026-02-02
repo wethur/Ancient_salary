@@ -8,7 +8,7 @@
   }
 
   // 換算基準
-  const silverPricePerGram = 130; // 元 / 克
+  const silverPricePerGram = 75; // 元 / 克
   const liangWeight = 37.5;       // 克 / 兩
 
   // 計算
@@ -101,3 +101,4 @@ function renderLadder(liang) {
     })
     .join("");
 }
+
