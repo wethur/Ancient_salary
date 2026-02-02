@@ -1,0 +1,109 @@
+﻿body {
+  font-family: "Noto Serif TC", serif;
+  background: #f5f3ef;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.input-box {
+  text-align: center;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 30px;
+  padding: 20px;
+  background: #faf7f2;
+  border-left: 5px solid #c9a14a;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
+.ancient-salary {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ancient-salary .label {
+  font-size: 14px;
+  color: #888;
+}
+
+.liang {
+  font-size: 48px;
+  font-weight: bold;
+  color: #8b5e00;
+}
+
+.liang .unit {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.rank-box {
+  background: #fdf6e3;
+  padding: 15px;
+  border-left: 4px solid #c9a14a;
+  margin-bottom: 15px;
+}
+
+.modern-ref {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.ladder-box {
+  margin-top: 20px;
+}
+.ladder-level {
+  padding: 8px;
+  margin: 4px 0;
+  background: #eee;
+  opacity: 0.4;
+}
+
+.ladder-level.active {
+  background: #c9a14a;
+  color: #fff;
+  opacity: 1;
+}

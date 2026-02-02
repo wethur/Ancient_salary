@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>白銀薪資換算器</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>白銀薪資換算器</h1>
+    <p class="subtitle">
+      將現代月薪換算為古代白銀（兩），並判定生活位階
+    </p>
+
+    <div class="input-box">
+      <label>月薪（新台幣 / 元）</label>
+      <input type="number" id="salary" placeholder="例如：60000" />
+      <button onclick="calculate()">換算</button>
+    </div>
+
+    <div id="result" class="result hidden">
+	  <div class="ancient-salary">
+		<div class="label">古代月俸</div>
+		<div class="liang">
+		  <span id="liangValue">0</span>
+		  <span class="unit">兩</span>
+		</div>
+	  </div>
+
+	  <div class="rank-box">
+		<h3 id="rankTitle"></h3>
+		<p id="rankDesc"></p>
+	  </div>
+
+	  <div class="modern-ref">
+		現代月薪：<span id="modernSalary"></span> 元  
+		（約 <span id="silverGram"></span> 克白銀）
+	  </div>
+
+	  <div class="ladder-box">
+		<h4>古代社會位階</h4>
+		<div id="ladder"></div>
+	  </div>
+	</div>
+
+
+    <footer>
+      換算基準：130 元 / 克｜1 兩 = 37.5 克
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
